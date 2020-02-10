@@ -60,6 +60,8 @@
       <chinaMap></chinaMap>
       <!-- 折线图-轮播 -->
       <lineSwiper></lineSwiper>
+      <!-- 国内数据表格 -->
+      <dataTable></dataTable>
     </div>
   </div>
 </template>
@@ -70,6 +72,7 @@
 import primaryTitle from '../components/primaryTitle.vue'
 import chinaMap from '../components/chinaMap.vue'
 import lineSwiper from '../components/lineSwiper.vue'
+import dataTable from '../components/dataTable.vue'
 
 export default {
   name: 'home',
@@ -95,7 +98,8 @@ export default {
   components: {
     primaryTitle,
     chinaMap,
-    lineSwiper
+    lineSwiper,
+    dataTable
   }
 }
 </script>
